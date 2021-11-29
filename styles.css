@@ -2,9 +2,8 @@
   background-color: #99FEFF;
   padding-top: 150px;
   position: relative;
-  
-
 }
+
 
 .MiddleContainer{
   background-color: #D8AC9C ;
@@ -32,15 +31,20 @@ body {
   margin-bottom: 0px;
   text-align: center;
 } 
+.mountain{
+  width: 37rem;
+}
 .top-cloud{
   position: absolute;
   right: 350px;
   top: 50px;
+  width: 15rem;
 }
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px
+  bottom: 300px;
+  width: 15rem;
 }
 p {
   
@@ -209,4 +213,22 @@ a:hover{
 }
 .contact-me{
   height: 450px;
+}
+@media only screen and (max-width:500px){
+  .mountain{
+    width: 15rem;
+
+  }
+  .bottom-cloud{
+    left: 1rem;
+    width: 8rem;
+    
+  }
+  .top-cloud{
+    right: 2rem;
+    width: 8rem;
+  }
+  .contact-me>p{
+    padding: 2rem;
+  }
 }
