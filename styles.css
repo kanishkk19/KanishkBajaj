@@ -3,6 +3,9 @@
   padding-top: 150px;
   position: relative;
 }
+body{
+  background-color: #edf3f8;
+}
 
 
 .MiddleContainer{
@@ -12,7 +15,7 @@
 
 }
 .BottomContainer{
-  background-color: #BCE6EB ;
+  background-color: #C2FFF9 ;
   height: 200px;
   width: 200px;
 
@@ -23,7 +26,7 @@ h1 {
   margin-right: 0px;
   margin-bottom: 0px;
   font-family: 'WindSong', cursive;
-  font-size: 400%;
+  font-size: 500%;
   color: #40514E;
 }
 body {
@@ -32,17 +35,19 @@ body {
   text-align: center;
 } 
 .mountain{
-  width: 37rem;
+  width: 98.8vw;
+  height: 22.8rem;
+
 }
 .top-cloud{
   position: absolute;
-  right: 350px;
+  right: 230px;
   top: 50px;
   width: 15rem;
 }
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 330px;
   bottom: 300px;
   width: 15rem;
 }
@@ -119,12 +124,12 @@ p {
   margin: 100px auto 100px auto;
 }
 hr {
-  background-color: white;
+  background-color: #dceaf7;
   border-style: dotted none none none;
   width: 10%;
   height: 0px;
   border-width: 11px;
-  border-color: #94DAFF;
+  border-color: #62bbeb;
 
 }
 .btn {
@@ -199,7 +204,7 @@ hr {
   height: 4px;
 }
 .bottom-container{
-  background-color: #11999E;
+  background-color: #58b8be;
   padding: 30px 0 10px;
   margin-bottom: 0px;
   height: 125px;
@@ -222,7 +227,7 @@ a:hover{
   .bottom-cloud{
     left: 1rem;
     width: 8rem;
-    
+      
   }
   .top-cloud{
     right: 2rem;
@@ -231,4 +236,10 @@ a:hover{
   .contact-me>p{
     padding: 2rem;
   }
+}
+.sun{
+  position: absolute;
+  
+    top: 20rem;
+    width: 17rem;
 }
